@@ -46,6 +46,11 @@ Pause::
 ;	Send, {F22}
 ;	return
 
+;Rapture起動
+^PrintScreen::
+	Run "D:\My Program Files\rapture-2.2.0\rapture.exe"
+	return
+
 ;常に手前に表示する
 #t::
 	WinSet, AlwaysOnTop, Toggle, A
